@@ -1,0 +1,76 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+:root{
+    --cor0: #DBDBDB;
+    --cor1: #f4ebd2;
+    --cor2: #f4de92;
+    --cor3: #b8974a;
+    --cor4: #a77038;
+    --cor5: #7a4e1f;
+
+    --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
+    --font-destaque: 'Bebas Neue', cursive;;
+    --font-Sriracha: 'Sriracha', cursive; ;
+
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: var(--cor1);
+}
+
+header{
+    background-image: linear-gradient(to bottom, var(--cor2), var(--cor4));
+    background-color: var(--cor5);
+    font-family: var(--font-destaque);
+    min-height: 150px;
+    text-align: center;
+    padding-top: 40px;
+}
+
+header> h1{
+    color: black;
+    font-family: var(--font-destaque);
+    font-size: 4em;
+    font-weight: normal;
+    text-shadow: 1px 2px 2px black;
+
+}
+
+nav{
+    background-color: var(--cor4);
+    padding: 10px;
+    box-shadow: 3px 3px black;
+}
+
+nav> a{
+    padding: 10px;    text-decoration: none; /* pra tirar a barra de baixo do link*/
+    font-weight: bolder; /* deixar em negrito*/
+    transition-duration: 1s; /* quando passar o mouse em cima durar meio segundo */
+}
+
+nav > a:hover{
+    background-color: var(--cor1);
+    color: var(--cor4);
+
+}
+
+article>{
+
+}
+
+main{
+    min-height: 300px;
+    max-width: 800px;
+    margin: auto;
+
+}
+
