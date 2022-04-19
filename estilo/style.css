@@ -67,8 +67,8 @@ article{
 
 
 main{
-    min-height: 300px;
-    max-width: 800px;
+    min-height: 350px;
+    max-width: 1000px;
     margin: auto;
     margin-bottom: 30px; /* para nao deixa o conteudo principal  descolado do rodape*/
     padding: 20px; /* para ampliar um polco a imagem */
@@ -76,6 +76,20 @@ main{
     border-bottom-right-radius: 10px; /* para colocar borda no conteudo nas */
 
 
+}
+main a:hover {
+    text-decoration: underline;
+    color: var(--cor4);
+}
+
+main img{
+    width: 100%;
+}
+
+main img.pequena{
+    max-width: 350px;/* deixar em 50 porcento*/
+    display: block; /* para centralizar imagens */
+    margin: auto; /* para centralizar imagens */
 }
 
 div.video{
